@@ -13,7 +13,7 @@ form.addEventListener('submit', (e)=>{
     message1.textContent = 'Loading';
     message2.textContent = '';
 
-    fetch(`http://localhost:3000/address?address=${search.value}`).then((response)=>{
+    fetch(`/address?address=${search.value}`).then((response)=>{
     response.json().then(data=>{
         if(data.error){
             message1.textContent = data.error;
