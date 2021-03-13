@@ -21,7 +21,7 @@ form.addEventListener('submit', (e)=>{
             
         else{
             message1.textContent = `The location you have entered is ${data.location}.`
-            message2.textContent = `Current temperature here is ${data.current_temperature}'C, and it feels like ${data.feels_like}'C.`;
+            message2.textContent = `Current temperature here is ${data.current_temperature}'C, and it feels like ${data.feels_like}'C. HI PSI.`;
         }
     })
 });
